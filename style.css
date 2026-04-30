@@ -558,8 +558,8 @@ footer .copy { font-size: 0.78rem; opacity: 0.5; }
   section { padding: 60px 24px; }
   #about .about-grid,
   .skills-grid,
-  .edu-grid,
-  .reels-grid { grid-template-columns: 1fr; }
+  .edu-grid { grid-template-columns: 1fr; }
+  .reels-grid { grid-template-columns: repeat(2, 1fr); }
   .divider { margin: 0 24px; }
   #skills { padding: 60px 24px; }
   footer { padding: 40px 24px; }
